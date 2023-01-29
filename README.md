@@ -1,3 +1,3 @@
 # Machine-Learning-Portfolio
 
-[a relative link](Overview_of_ML.pdf)
+[Overview of ML](Overview_of_ML.pdf)
