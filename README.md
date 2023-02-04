@@ -2,7 +2,7 @@
 
 ## Overview of ML
 
-You can see the [document](Overview_of_ML.pdf) here!
+You can see the document [here!](Overview_of_ML.pdf)
 
 ## C++ Data Exploration
 
