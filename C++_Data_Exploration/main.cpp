@@ -57,12 +57,13 @@ double median(vector<double> v)
 
 // function for range
 // sort the vector
-double range(vector<double> v)
+vector<double> range(vector<double> v)
 {
     sort(v.begin(), v.end());
-    int last_index = v.size() - 1;
-    double range_num = v.at(last_index) - v.at(0);
-    return range_num;
+    vector <double> result(2);
+    result.at(0) = v.at(0);
+    result.at(1) = v.at(v.size()-1);
+    return result;
 }
 
 // function to print stats
@@ -72,7 +73,8 @@ void print_stats(vector<double> v, int size)
     cout << "SUM: " << sumAns << endl;
     cout << "MEAN: " << mean(sumAns, size) << endl;
     cout << "MEDIAN: " << median(v) << endl;
-    cout << "RANGE: " << range(v) << endl;
+    vector <double> result = range(v);
+    cout << "RANGE: [" << result.at(0) << ", " << result.at(1) << "]" << endl;
 }
 
 // function to find the covariance
