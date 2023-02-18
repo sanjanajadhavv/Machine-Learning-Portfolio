@@ -12,3 +12,9 @@ and correlation of two vectors. The purpose of this assignment is to build funct
 - [code](C++_Data_Exploration/main.cpp) <br>
 - [dataset](C++_Data_Exploration/Boston.csv) <br>
 - [report](C++_Data_Exploration/C++_Data_Exploration_Report.pdf)
+
+## Linear Models
+
+- [Linear Regression](Linear_Models/Classification.pdf) <br>
+- [Classification: Logistic Regression & Naive Bayes](Linear_Models/Regression.pdf) <br>
+
