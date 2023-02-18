@@ -16,5 +16,5 @@ and correlation of two vectors. The purpose of this assignment is to build funct
 ## Linear Models
 
 - [Linear Regression](Linear_Models/Regression.pdf) <br>
-- [Classification: Logistic Regression & Naive Bayes](Linear_Models/Regression.pdf) <br>
+- [Classification: Logistic Regression & Naive Bayes](Linear_Models/Classification.pdf) <br>
 
