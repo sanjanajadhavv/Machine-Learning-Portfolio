@@ -15,10 +15,7 @@ and correlation of two vectors. The purpose of this assignment is to build funct
 
 ## Linear Models
 
-- linear regression [report](Linear_Models/Regression.pdf), [code](Linear_Models/Regression.Rmd), & [dataset](Linear_Models/diamonds.csv) 
-
-- [report: classification (logistic regression & naive bayes](Linear_Models/Classification.pdf) <br>
-- [code: classification (logistic regression & naive bayes](Linear_Models/Classification.Rmd) <br>
-- [dataset: classification](Linear_Models/adult.csv) 
+- linear regression: [report](Linear_Models/Regression.pdf), [code](Linear_Models/Regression.Rmd), & [dataset](Linear_Models/diamonds.csv) <br>
+- classification (logistic regression & naive bayes: [report](Linear_Models/Classification.pdf), [code](Linear_Models/Classification.Rmd), & [dataset](Linear_Models/adult.csv) 
 
 
