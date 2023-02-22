@@ -1,4 +1,4 @@
-# CS 4375: Sanjana Jadhav's Machine-Learning-Portfolio 
+# CS 4375: Sanjana Jadhav's Machine Learning Portfolio 
 
 ## Overview of ML
 
