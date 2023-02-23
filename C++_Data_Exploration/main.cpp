@@ -178,7 +178,7 @@ int main(int argc, const char *argv[])
         numObservations++;
     }
 
-    // remove extra indexes
+    // remove extra indices
     rm.resize(numObservations);
     medv.resize(numObservations);
 
