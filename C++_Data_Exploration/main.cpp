@@ -2,7 +2,7 @@
 //  main.cpp
 //  1_ML
 //  Created by Sanjana Jadhav on 1/28/23.
-//  This program calcualates the sum, mean, median, range, covariance, and correlation og two vectors
+//  This program calcualates the sum, mean, median, range, covariance, and correlation of two vectors
 //
 
 #include <fstream>
@@ -178,7 +178,7 @@ int main(int argc, const char *argv[])
         numObservations++;
     }
 
-    // remove extra indexes
+    // remove extra indices
     rm.resize(numObservations);
     medv.resize(numObservations);
 
