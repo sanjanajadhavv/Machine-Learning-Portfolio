@@ -1,4 +1,4 @@
-# CS 4375: Sanjana Jadhav's Machine Learning Portfolio 
+# CS 4375: Sanjana Jadhav's Machine Learning Portfolio
 
 ## Overview of ML
 
@@ -13,7 +13,7 @@ You can see the document [here!](Overview_of_ML.pdf)
 ## Linear Models in R
 
 - linear regression: [report](Linear_Models/Regression.pdf), [code](Linear_Models/Regression.Rmd), & [dataset](Linear_Models/diamonds.csv) <br>
-- classification (logistic regression & naive bayes: [report](Linear_Models/Classification.pdf), [code](Linear_Models/Classification.Rmd), & [dataset](Linear_Models/adult.csv) 
+- classification (logistic regression & naive bayes: [report](Linear_Models/Classification.pdf), [code](Linear_Models/Classification.Rmd), & [dataset](Linear_Models/adult.csv)
 
 ## C++ Algorithsm from Scratch
 
@@ -22,3 +22,6 @@ You can see the document [here!](Overview_of_ML.pdf)
 - dataset: [titanic](C++_Algorithms_from_Scratch/titanic_project.csv)
 - [report](C++_Algorithms_from_Scratch/ML_Algorithms_from_Scratch.pdf)
 
+## Similarity & Ensemble (Group Project)
+
+- linear regression, kNN regression, decision trees regression: [code](Similarity_&_Ensemble/Part_1_Regression/Regression.Rmd), [report](Similarity_&_Ensemble/Part_1_Regression/Regression.pdf), [dataset](Similarity_&_Ensemble/Part_1_Regression/Fuel_Consumption_2000-2022.csv)
