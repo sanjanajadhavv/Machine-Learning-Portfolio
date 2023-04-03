@@ -24,5 +24,10 @@ You can see the document [here!](Overview_of_ML.pdf)
 
 ## Similarity & Ensemble (Group Project)
 
+### my work:
+
 - linear regression, kNN regression, decision trees regression: [code](Similarity_&_Ensemble/Regression/Regression.Rmd), [report](Similarity_&_Ensemble/Regression/Regression.pdf), & [dataset](Similarity_&_Ensemble/Regression/Fuel_Consumption_2000-2022.csv)
+
+### other members: 
+- logistic regression, kNN classification, decision trees classification: [code](Similarity_&_Ensemble/Classification/Classification.rmd), [report](Similarity_&_Ensemble/Classification/Classification.pdf), [dataset](Similarity_&_Ensemble/Classification/dataset.csv)
 - narrative about kNN, decision trees, clustering methods, pca, & lda: [report](Similarity_&_Ensemble/Narrative/Narrative.pdf)
