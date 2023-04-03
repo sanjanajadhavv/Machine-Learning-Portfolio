@@ -1,0 +1,82 @@
+---
+title: "Clustering"
+output: 
+  html_notebook: default
+  pdf_document: default
+editor_options:
+  chunk_output_type: inline
+---
+This notebook tests 3 clustering algorithms: kMeans, Hierarchical and Model-Based.
+
+I am using a dataset on patient survival: [https://www.kaggle.com/datasets/mitishaagarwal/patient](https://www.kaggle.com/datasets/mitishaagarwal/patient)
+
+As there is a lot of data in the dataset, I am going to limit the amount of data used for our clustering algorithms by only using the first 2000 rows and specific relevant columns. I am also making sure I get rid of the NA and invalid fields.
+```{r}
+data <- read.csv("dataset.csv", header = TRUE, stringsAsFactors = TRUE) # read in csv
+patientData <- data[c(1:2000), c(4, 6, 27, 29, 34, 37, 41, 42, 43, 49, 54, 61, 69, 70, 72, 73, 75, 76, 78, 81, 85)] # select relavent columns
+patientData <- patientData[complete.cases(patientData), ] # remove all rows with NA in any column
+patientData <- patientData[patientData$apache_4a_hospital_death_prob >= 0,] #remove invalid values
+patientData <- patientData[patientData$apache_4a_icu_death_prob >= 0,] #remove invalid values
+patientData <- scale(patientData)
+head(patientData)
+```
+
+## kMeans Clustering
+kMeans clustering is a centroid-based algorithm that uses Euclidean distances between observations/points to assign to its nearest centroid.
+
+First, I should determine the best number of clusters. I can use the NbClust() function to find the best k value.
+```{r}
+library(NbClust)
+set.seed(1234)
+nc <- NbClust(patientData, min.nc=2, max.nc=15, method ="kmeans")
+table(nc$Best.n[1,])
+barplot(table(nc$Best.n[1,]),
+        xlab="Number of Clusters", ylab="Number of Criteria",
+        main="Number of Clusters")
+```
+
+The NbClust() function showed that 2 clusters are optimal. Now I will try clustering with kmeans().
+```{r}
+set.seed(1234)
+patientCluster <- kmeans(patientData, 2, nstart=24)
+patientCluster
+```
+Now I will plot the kmeans clustering.
+```{r}
+library(cluster)
+clusplot(patientData, patientCluster$cluster, color=TRUE, shade=TRUE,
+         labels=2, lines=0)
+```
+
+## Hierarchical Clustering
+Hierarchical Clustering uses distance to group observations/points into clusters organized in a hierarchy.
+
+I am using the pvclust package. The pvclust() function performs hierarchical clustering based on p-values, values from 0 to 1 that shows how strong the cluster is supported by the data. I will use Euclidean distance and Ward's method to generate clusters.The pvrect() function then adds rectangles in the dendogram to show the clusters.
+
+```{r}
+library(pvclust)
+fit <- pvclust(patientData, method.hclust = "ward", method.dist="euclidean")
+plot(fit, hang=-1, cex=.8, 
+     main="Hierarchical Clustering")
+pvrect(fit, alpha=.95)
+```
+
+## Model-Based Clustering
+Model-Based Clustering creates multiple data models and tries to identify the most likely clustering based of a maximum likelihood estimation.
+
+I am using the mclust package. The Mclust() function provides model-based clustering based on parameterized Gaussian mixture models. The model with the largest Bayesian Information Criterion (BIC) is picked as the most optimal.
+
+```{r}
+library(mclust)
+fit <- Mclust(patientData)
+plot(fit, what = "classification") # plot results
+summary(fit) # display the best model
+```
+
+## Analysis
+The kMeans, hierarchical and model-based clustering had varied results:
+<li> KMeans Clustering: 2 Clusters </li>
+<li> Hierarchical Clustering: 6 Clusters </li>
+<li> Model-based Clustering: 6 Clusters </li>
+
+I think model-based clustering showed the best results. KMeans seemed to group most of the points in one cluster and the outliers in another cluster. Hierarchical clustering and model-based clustering provided the same result and had more relevant and useful clusters. However, there is no evidence of a hierarchical structure in our data so I think model-based clustering is more relevant. Model-based clustering also seems the most thorough.

@@ -26,9 +26,10 @@ You can see the document [here!](Overview_of_ML.pdf)
 
 ### my work:
 
-- linear regression, kNN regression, decision trees regression: [code](Similarity_&_Ensemble/Regression/Regression.Rmd), [report](Similarity_&_Ensemble/Regression/Regression.pdf), & [dataset](Similarity_&_Ensemble/Regression/Fuel_Consumption_2000-2022.csv)
+- linear regression, kNN regression, decision trees regression: [code](Similarity_&_Ensemble/Part_1_Regression/Regression.Rmd), [report](Similarity_&_Ensemble/Part_1_Regression/Regression.pdf), & [dataset](Similarity_&_Ensemble/Part_1_Regression/Fuel_Consumption_2000-2022.csv)
 
 ### other members: 
-- logistic regression, kNN classification, decision trees classification: [code](Similarity_&_Ensemble/Classification/Classification.rmd), [report](Similarity_&_Ensemble/Classification/Classification.pdf), & [dataset](Similarity_&_Ensemble/Classification/dataset.csv)
-- pca & lda dimensionality reduction: [code](Similarity_&_Ensemble/Dimensionality_Reduction/Dimensionality_Reduction.Rmd), [report](Similarity_&_Ensemble/Dimensionality_Reduction/Dimensonality_Reduction.pdf), & [dataset](Similarity_&_Ensemble/Dimensionality_Reduction/Fuel_Consumption_2000-2022.csv)
-- narrative about kNN, decision trees, clustering methods, pca, & lda: [report](Similarity_&_Ensemble/Narrative/Narrative.pdf)
+- logistic regression, kNN classification, decision trees classification: [code](Similarity_&_Ensemble/Part_2_Classification/Classification.rmd), [report](Similarity_&_Ensemble/Part_2_Classification/Classification.pdf), & [dataset](Similarity_&_Ensemble/Part_2_Classification/dataset.csv)
+- kMeans clustering & hierarchical clustering: [code](Similarity_&_Ensemble/Part_3_Clustering/Clustering.Rmd), [report](Similarity_&_Ensemble/Part_3_Clustering/Clustering.pdf), & [dataset](Similarity_&_Ensemble/Part_3_Clustering/dataset.csv)
+- pca & lda dimensionality reduction: [code](Similarity_&_Ensemble/Part_4_Dimensionality_Reduction/Dimensionality_Reduction.Rmd), [report](Similarity_&_Ensemble/Part_4_Dimensionality_Reduction/Dimensonality_Reduction.pdf), & [dataset](Similarity_&_Ensemble/Part_4_Dimensionality_Reduction/Fuel_Consumption_2000-2022.csv)
+- narrative about kNN, decision trees, clustering methods, pca, & lda: [report](Similarity_&_Ensemble/Part_5_Narrative/Narrative/Narrative.pdf)
