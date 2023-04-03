@@ -15,7 +15,7 @@ You can see the document [here!](Overview_of_ML.pdf)
 - linear regression: [report](Linear_Models/Regression.pdf), [code](Linear_Models/Regression.Rmd), & [dataset](Linear_Models/diamonds.csv) <br>
 - classification (logistic regression & naive bayes: [report](Linear_Models/Classification.pdf), [code](Linear_Models/Classification.Rmd), & [dataset](Linear_Models/adult.csv)
 
-## C++ Algorithsm from Scratch
+## C++ Algorithms from Scratch
 
 - linear regression: [code](C++_Algorithms_from_Scratch/Logistic_Regression/main.cpp)
 - naive bayes: [code](C++_Algorithms_from_Scratch/Naive_Bayes/main.cpp)
