@@ -29,5 +29,6 @@ You can see the document [here!](Overview_of_ML.pdf)
 - linear regression, kNN regression, decision trees regression: [code](Similarity_&_Ensemble/Regression/Regression.Rmd), [report](Similarity_&_Ensemble/Regression/Regression.pdf), & [dataset](Similarity_&_Ensemble/Regression/Fuel_Consumption_2000-2022.csv)
 
 ### other members: 
-- logistic regression, kNN classification, decision trees classification: [code](Similarity_&_Ensemble/Classification/Classification.rmd), [report](Similarity_&_Ensemble/Classification/Classification.pdf), [dataset](Similarity_&_Ensemble/Classification/dataset.csv)
+- logistic regression, kNN classification, decision trees classification: [code](Similarity_&_Ensemble/Classification/Classification.rmd), [report](Similarity_&_Ensemble/Classification/Classification.pdf), & [dataset](Similarity_&_Ensemble/Classification/dataset.csv)
+- pca & lda dimensionality reduction: [code](Similarity_&_Ensemble/Dimensionality_Reduction/Dimensionality_Reduction.Rmd), [report](Similarity_&_Ensemble/Dimensionality_Reduction/Dimensonality_Reduction.pdf), & [dataset](Similarity_&_Ensemble/Dimensionality_Reduction/Fuel_Consumption_2000-2022.csv)
 - narrative about kNN, decision trees, clustering methods, pca, & lda: [report](Similarity_&_Ensemble/Narrative/Narrative.pdf)
