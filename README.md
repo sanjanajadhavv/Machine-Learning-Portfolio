@@ -33,3 +33,7 @@ You can see the document [here!](Overview_of_ML.pdf)
 - kMeans clustering & hierarchical clustering: [code](Similarity_&_Ensemble/Part_3_Clustering/Clustering.Rmd), [report](Similarity_&_Ensemble/Part_3_Clustering/Clustering.pdf), & [dataset](Similarity_&_Ensemble/Part_3_Clustering/dataset.csv)
 - pca & lda dimensionality reduction: [code](Similarity_&_Ensemble/Part_4_Dimensionality_Reduction/Dimensionality_Reduction.Rmd), [report](Similarity_&_Ensemble/Part_4_Dimensionality_Reduction/Dimensonality_Reduction.pdf), & [dataset](Similarity_&_Ensemble/Part_4_Dimensionality_Reduction/Fuel_Consumption_2000-2022.csv)
 - narrative about kNN, decision trees, clustering methods, pca, & lda: [report](Similarity_&_Ensemble/Part_5_Narrative/Narrative/Narrative.pdf)
+
+
+## ML with sklearn
+- logistic regression, decision trees, neural networks: [code](ML_with_sklearn/ml_sklearn.ipynb), [report](ML_with_sklearn/ml_sklearn.pdf), & [dataset](ML_with_sklearn/Auto.csv)
