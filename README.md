@@ -39,4 +39,4 @@ You can see the document [here!](Overview_of_ML.pdf)
 - logistic regression, decision trees, neural networks: [code](ML_with_sklearn/ml_sklearn.ipynb), [report](ML_with_sklearn/ml_sklearn.pdf), & [dataset](ML_with_sklearn/Auto.csv)
 
 ## Image Classification
-- sequential model, convolutional neural network model, & pre-trained model: [code](Image_Classification/image_classification.ipynb), [report](Image_Classification/image_classification.pdf), & [dataset]Image_Classification/data)
+- sequential model, convolutional neural network model, & pre-trained model: [code](Image_Classification/image_classification.ipynb), [report](Image_Classification/image_classification.pdf), & [dataset](Image_Classification/data)
