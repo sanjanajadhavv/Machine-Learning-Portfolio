@@ -1,8 +1,8 @@
 # CS 4375: Sanjana Jadhav
 
 ## Skills:
-### **Technical:** C++, R, Python (pandas, numpy, sklearn, Seaborn, Matplotlib, Tensorlfow)
-### **Statistics:** linear/logstic regression, naive bayes, kNN regression/classification, decision trees regression/classification, kMeans clustering, hierarchical clustering, pca/lda dimensionality reduction, neural networks, sequential models, rnn/cnn models, transfer learning
+- **Technical:** C++, R, Python (pandas, numpy, sklearn, Seaborn, Matplotlib, Tensorlfow)
+- **Statistics:** linear/logstic regression, naive bayes, kNN regression/classification, decision trees regression/classification, kMeans clustering, hierarchical clustering, pca/lda dimensionality reduction, neural networks, sequential models, rnn/cnn models, transfer learning
 
 ## HW 1: Overview of ML
 
