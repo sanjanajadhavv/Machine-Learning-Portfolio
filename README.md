@@ -14,8 +14,9 @@ This program uses C++ functions to find the sum, mean, median, range, covariance
 
 
 ## HW 3: Linear Models in R
-
+For this assignment, I worked with Sovanna Ramirez to create Linear Regression, Logistic Regression & Naive Bayes models in R and analyze their performances.
 - linear regression: [report](Linear_Models/Regression.pdf), [code](Linear_Models/Regression.Rmd), & [dataset](Linear_Models/diamonds.csv) <br>
+Specifically, I worked on the Classification part of this assignemnt and built the Logistic Regression and Naive Bayes model.  Firstly, I imported and preprocessed the data, and then conducted basic data exploration techniques to comprehend its underlying structure. Next, I divided the data into training and testing sets and visualized its distribution. Subsequently, I created both logistic regression and naive Bayes models to understand the impact of various predictors on adult income, and used these models to predict the outcome on the test data. Finally, I evaluated the results using different metrics to gain insights into the performance of the models.
 - classification (logistic regression & naive bayes: [report](Linear_Models/Classification.pdf), [code](Linear_Models/Classification.Rmd), & [dataset](Linear_Models/adult.csv)
 
 ## HW 4: C++ Algorithms from Scratch
