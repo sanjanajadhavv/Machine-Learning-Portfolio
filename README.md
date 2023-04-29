@@ -1,6 +1,6 @@
 # CS 4375: Sanjana Jadhav
 
-- **Technical Tools and Languages:** C++, R, Python **(pandas, numpy, sklearn, Seaborn, Matplotlib, Tensorflow)**
+- **Technical Tools and Languages:** C++, R **(ggplot2, caret, e1071, tree)**, Python **(pandas, numpy, sklearn, Seaborn, Matplotlib, Tensorflow)**
 - **Statistics/Machine Learning:** linear/logistic regression, naive bayes, kNN regression/classification, decision trees regression/classification, kMeans clustering, hierarchical clustering, pca/lda dimensionality reduction, neural networks, sequential models, rnn/cnn models, transfer learning, inductive learning, feature selection, svm, ensemble methods, reinforcement learning, markov models
 - **Soft Skills:** communication, time & project management, leadership, teamwork, analytical thinking, adaptability
 
