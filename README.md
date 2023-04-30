@@ -64,5 +64,6 @@ This assignment serves as an introduction to Python and sklearn. The "Auto" csv 
 - logistic regression, decision trees, neural networks: [code](ML_with_sklearn/ml_sklearn.ipynb), [report](ML_with_sklearn/ml_sklearn.pdf), & [dataset](ML_with_sklearn/Auto.csv)
 
 ## HW 7: Image Classification
-
+This assignment utilizes the **Card Image Dataset** on Kaggle to showcase image classification using a sequential model, CNN model, and a pre-trained model. I utilized the Tensorflow library to import both the training and testing datasets and employed Matplotlib to plot the distribution of the classes as well as a sample of the training data. 
+I developed a Sequential model and a CNN model, and plotted their accuracy for each epoch to analyze their performance. Furthermore, I employed the MobileNet V2 model to evaluate transfer learning.
 - sequential model, convolutional neural network model, & pre-trained model: [code](Image_Classification/image_classification.ipynb), [report](Image_Classification/image_classification.pdf), & [dataset](Image_Classification/data)
