@@ -48,14 +48,19 @@ For this assignment, I worked on creating a linear regression model, a kNN regre
 - linear regression, kNN regression, decision trees regression: [code](Similarity_&_Ensemble/Part_1_Regression/Regression.Rmd), [report](Similarity_&_Ensemble/Part_1_Regression/Regression.pdf), & [dataset](Similarity_&_Ensemble/Part_1_Regression/Fuel_Consumption_2000-2022.csv)
 
 ### other members:
-
 - logistic regression, kNN classification, decision trees classification: [code](Similarity_&_Ensemble/Part_2_Classification/Classification.rmd), [report](Similarity_&_Ensemble/Part_2_Classification/Classification.pdf), & [dataset](Similarity_&_Ensemble/Part_2_Classification/dataset.csv)
 - kMeans clustering & hierarchical clustering: [code](Similarity_&_Ensemble/Part_3_Clustering/Clustering.Rmd), [report](Similarity_&_Ensemble/Part_3_Clustering/Clustering.pdf), & [dataset](Similarity_&_Ensemble/Part_3_Clustering/dataset.csv)
 - pca & lda dimensionality reduction: [code](Similarity_&_Ensemble/Part_4_Dimensionality_Reduction/Dimensionality_Reduction.Rmd), [report](Similarity_&_Ensemble/Part_4_Dimensionality_Reduction/Dimensonality_Reduction.pdf), & [dataset](Similarity_&_Ensemble/Part_4_Dimensionality_Reduction/Fuel_Consumption_2000-2022.csv)
 - narrative about kNN, decision trees, clustering methods, pca, & lda: [report](Similarity_&_Ensemble/Part_5_Narrative/Narrative/Narrative.pdf)
 
 ## HW 6: ML with sklearn
+This assignment serves as an introduction to Python and sklearn. The "Auto" csv file was imported using the pandas library for data exploration. NA values were handled, a column was modified, and the distribution of the target column was visualized using Seaborn. 
 
+**Part 1:** I trained a logistic regression model on the training data using the sklearn library in Python. The trained model is then used to predict the target values for the test data, and the results are evaluated using a confusion matrix and a classification report.
+
+**Part 2:** I trained a decision tree classifier model using the **DecisionTreeClassifier()** function and fitting it to the given training data. The trained model is then used to predict the target values for the test data, and the results are evaluated using a confusion matrix and a classification report.
+
+**Part 3:** I trained two neural network models on a dataset, using the **MLPClassifier** from the sklearn library. First, the data is preprocessed by scaling it using StandardScaler. The first model uses the lbfgs solver and the second model uses the sgd solver. After fitting the models to the training data, the models make predictions on the test data and the confusion matrix and classification report are printed for each model.
 - logistic regression, decision trees, neural networks: [code](ML_with_sklearn/ml_sklearn.ipynb), [report](ML_with_sklearn/ml_sklearn.pdf), & [dataset](ML_with_sklearn/Auto.csv)
 
 ## HW 7: Image Classification
