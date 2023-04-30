@@ -6,7 +6,7 @@
 
 ## HW 1: Overview of ML
 
-You can see the document [here!](Overview_of_ML.pdf)
+Check out my short introduction to machine learning [here!](Overview_of_ML.pdf)
 
 ## HW 2: C++ Data Exploration
 
