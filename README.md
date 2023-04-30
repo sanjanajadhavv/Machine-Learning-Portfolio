@@ -9,21 +9,26 @@
 You can see the document [here!](Overview_of_ML.pdf)
 
 ## HW 2: C++ Data Exploration
+
 This program uses C++ functions to find the sum, mean, median, range, covariance, and correlation of two vectors. The purpose of this assignment is to build functions from scratch (and dicuss the significance) instead of using the inbuilt functions in R.
+
 - [code](C++_Data_Exploration/main.cpp), [report](C++_Data_Exploration/C++_Data_Exploration_Report.pdf), & [dataset](C++_Data_Exploration/Boston.csv)
 
-
 ## HW 3: Linear Models in R
+
 For this assignment, I worked with Sovanna Ramirez to create Linear Regression, Logistic Regression & Naive Bayes models in R and analyze their performances.
 
-Specifically, I worked on the Classification part of this assignemnt and built the Logistic Regression model and the Naive Bayes model.  Firstly, I imported and preprocessed the data, and then conducted basic data exploration techniques to comprehend its underlying structure. Next, I divided the data into training and testing sets and visualized its distribution. Subsequently, I created both logistic regression and naive Bayes models to understand the impact of various predictors on adult income, and used these models to predict the outcome on the test data. Finally, I evaluated the results using different metrics to gain insights into the performance of the models.
+Specifically, I worked on the Classification part of this assignemnt and built the Logistic Regression model and the Naive Bayes model. Firstly, I imported and preprocessed the data, and then conducted basic data exploration techniques to comprehend its underlying structure. Next, I divided the data into training and testing sets and visualized its distribution. Subsequently, I created both logistic regression and naive Bayes models to understand the impact of various predictors on adult income, and used these models to predict the outcome on the test data. Finally, I evaluated the results using different metrics to gain insights into the performance of the models.
+
 - linear regression: [report](Linear_Models/Regression.pdf), [code](Linear_Models/Regression.Rmd), & [dataset](Linear_Models/diamonds.csv) <br>
 - classification (logistic regression & naive bayes: [report](Linear_Models/Classification.pdf), [code](Linear_Models/Classification.Rmd), & [dataset](Linear_Models/adult.csv)
 
 ## HW 4: C++ Algorithms from Scratch
+
 For this assignment, I worked with Sovanna Ramirez to create Logistic Regression & Naive Bayes models in C++ from scratch.
 
 Specifically, I worked on the Logistic Regression part of this assignment. The program reads a CSV file and performs logistic regression to predict who survived the Titanic, based on sex. The sigmoid function is used to calculate the probability of an outcome, and matrix multiplication is used to calculate the error and update the weights. The transpose function is used to transpose the matrix, and the add function is used to add vectors. The weights are updated by multiplying the learning rate by the transposed data matrix and the error. The code also includes a function to predict probability values based on the test data matrix and weights. This code uses various C++ libraries, including fstream, string, vector, sstream, iostream, cmath, algorithm, and chrono.
+
 - linear regression: [code](C++_Algorithms_from_Scratch/Logistic_Regression/main.cpp)
 - naive bayes: [code](C++_Algorithms_from_Scratch/Naive_Bayes/main.cpp)
 - dataset: [titanic](C++_Algorithms_from_Scratch/titanic_project.csv)
@@ -33,6 +38,13 @@ Specifically, I worked on the Logistic Regression part of this assignment. The p
 
 ### my work:
 
+For this assignment, I worked on creating a linear regression model, a kNN regression model & a decision tree regression model in R. The aim was to analyze the impact of various predictors on CO2 emissions and evaluate the performance of the three models. 
+
+**Part 1:** I constructed one linear regression model with a single predictor and two linear regression models with multiple predictors, and assessed them using metrics such as coefficients, RSE, R-squared, F-statistic, and p-values. Additionally, I plotted the residuals to gain further insights.
+
+**Part 2:** I developed two kNN models, one using unscaled data and the other using scaled data, and utilized a scatter plot of correlation and MSE values to identify the optimal k-value for building the third kNN model. All three models were assessed using metrics. Only a few select predictors were utilized for this code.
+
+**Part 3:** The "tree" function from the "tree" library is used to create the model, and the "predict" function is used to make predictions on a test dataset. The model is then pruned using the "prune.tree" function. The correlation and root mean squared error (RMSE) are calculated to evaluate the model's performance. A Random Forest model is also built using the "randomForest" function from the "randomForest" library. The RMSE is calculated for the Random Forest model as well. The code generates visualizations of the Decision Tree models and the Random Forest model's performance.
 - linear regression, kNN regression, decision trees regression: [code](Similarity_&_Ensemble/Part_1_Regression/Regression.Rmd), [report](Similarity_&_Ensemble/Part_1_Regression/Regression.pdf), & [dataset](Similarity_&_Ensemble/Part_1_Regression/Fuel_Consumption_2000-2022.csv)
 
 ### other members:
