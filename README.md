@@ -16,12 +16,14 @@ This program uses C++ functions to find the sum, mean, median, range, covariance
 ## HW 3: Linear Models in R
 For this assignment, I worked with Sovanna Ramirez to create Linear Regression, Logistic Regression & Naive Bayes models in R and analyze their performances.
 
-Specifically, I worked on the Classification part of this assignemnt and built the Logistic Regression and Naive Bayes model.  Firstly, I imported and preprocessed the data, and then conducted basic data exploration techniques to comprehend its underlying structure. Next, I divided the data into training and testing sets and visualized its distribution. Subsequently, I created both logistic regression and naive Bayes models to understand the impact of various predictors on adult income, and used these models to predict the outcome on the test data. Finally, I evaluated the results using different metrics to gain insights into the performance of the models.
+Specifically, I worked on the Classification part of this assignemnt and built the Logistic Regression model and the Naive Bayes model.  Firstly, I imported and preprocessed the data, and then conducted basic data exploration techniques to comprehend its underlying structure. Next, I divided the data into training and testing sets and visualized its distribution. Subsequently, I created both logistic regression and naive Bayes models to understand the impact of various predictors on adult income, and used these models to predict the outcome on the test data. Finally, I evaluated the results using different metrics to gain insights into the performance of the models.
 - linear regression: [report](Linear_Models/Regression.pdf), [code](Linear_Models/Regression.Rmd), & [dataset](Linear_Models/diamonds.csv) <br>
 - classification (logistic regression & naive bayes: [report](Linear_Models/Classification.pdf), [code](Linear_Models/Classification.Rmd), & [dataset](Linear_Models/adult.csv)
 
 ## HW 4: C++ Algorithms from Scratch
+For this assignment, I worked with Sovanna Ramirez to create Logistic Regression & Naive Bayes models in C++ from scratch.
 
+Specifically, I worked on the Logistic Regression part of this assignment. The program reads a CSV file and performs logistic regression to predict who survived the Titanic, based on sex. The sigmoid function is used to calculate the probability of an outcome, and matrix multiplication is used to calculate the error and update the weights. The transpose function is used to transpose the matrix, and the add function is used to add vectors. The weights are updated by multiplying the learning rate by the transposed data matrix and the error. The code also includes a function to predict probability values based on the test data matrix and weights. This code uses various C++ libraries, including fstream, string, vector, sstream, iostream, cmath, algorithm, and chrono.
 - linear regression: [code](C++_Algorithms_from_Scratch/Logistic_Regression/main.cpp)
 - naive bayes: [code](C++_Algorithms_from_Scratch/Naive_Bayes/main.cpp)
 - dataset: [titanic](C++_Algorithms_from_Scratch/titanic_project.csv)
