@@ -67,3 +67,10 @@ This assignment serves as an introduction to Python and sklearn. The "Auto" csv 
 This assignment utilizes the **Card Image Dataset** on Kaggle to showcase image classification using a sequential model, CNN model, and a pre-trained model. I utilized the Tensorflow library to import both the training and testing datasets and employed Matplotlib to plot the distribution of the classes as well as a sample of the training data. 
 I developed a Sequential model and a CNN model, and plotted their accuracy for each epoch to analyze their performance. Furthermore, I employed the MobileNet V2 model to evaluate transfer learning.
 - sequential model, convolutional neural network model, & pre-trained model: [code](Image_Classification/image_classification.ipynb), [report](Image_Classification/image_classification.pdf), & [dataset](Image_Classification/data)
+
+## Summary
+The past semester spent taking this class has been amazing. I have acquired proficiency in two new programming languages: R & Python. For years, I wanted to get into Machine Learning, but didn't know where to begin since I lacked knowledge of Python, which is a prerequisite for most online learning resources.This class has taught me numerous algorithms, primarily regression, classification, clustering, and more. I am so elated that I discovered a new area in computer science that has piqued my interest and allows me to apply my passion for mathematics.
+
+**Future Plans:** Currently, I am looking forward to revisiting my ASL translator project and independently building the CNN model. Additionally, next semester I am enrolled in Human Language Technologies, which is a continuation of Machine Learning and places more emphasis on Natural Language Processing (NLP). I am excited to continue my learning journey and expand my knowledge in machine learning. This field has captured my interest, and I am eagerly anticipating more career opportunities where I can showcase the skills I have acquired in this class.
+
+I am deeply grateful to **Professor Mazidi** for her exceptional teaching. She has helped me begin my Machine Learning journey, and I appreciate everything she has done for me.
